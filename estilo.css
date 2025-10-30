@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+img {
+ 
+  width: 200px;
+    height: auto;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.subparrafo {
+  font-size: 1.2em;
+  color: white
+}
+
+#final {
+  color: white;
+}
+
+#lienzo{
+  
+}
