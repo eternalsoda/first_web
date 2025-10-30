@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(235, 230, 204);
+  color: rgb(0, 0, 0);
+}
+
+#lienzo {
+width: 500px;
+height: 600px;
+border: 1px rgb(156, 156, 222);
+background-color: rgb(189, 197, 232);
+display: flex;
+justify-content: center;
+align-items:center
+
+}
+
+#cara {
+width: 60%;
+height: 68%;
+/*border: 1px black;*/
+background-color: rgb(234, 228, 136);
+border-radius: 50%;
+position: relative;
+display: flex; 
+}
+
+.ojo{
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 13%;
+  border-radius: 50%;
+  position: absolute;
+  top:25%
+
+}
+
+#ojoIzq {
+left:16%
+}
+
+
+
+#ojoDer{
+left: 60%
+
+
+}
+
+.pupilas{
+  background-color: rgb(49, 49, 49);
+  width: 10%;
+  height: 13%;
+  position: absolute;
+  top:25%
+
+}
+
+#pupilIzq {
+left:26%
+}
+
+
+#pupilDer{
+left: 70%
+
+
+}
+
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 300px solid rgb(217, 211, 130);
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
